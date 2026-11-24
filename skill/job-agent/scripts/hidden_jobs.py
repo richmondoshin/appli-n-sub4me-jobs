@@ -25,10 +25,13 @@ CREDIT = "Some jobs come from the free Hidden Jobs feed: https://sarabrunettini.
 MAX_BYTES = 5 * 1024 * 1024
 
 # Towns that mark a UK job when the feed doesn't say "UK" (for example "London Office").
-UK_TOWNS = re.compile(r"\b(london|manchester|birmingham|leeds|bristol|edinburgh|glasgow|cardiff|belfast|liverpool|"
-                      r"newcastle|nottingham|derby|leicester|sheffield|cambridge|oxford|brighton|reading|milton keynes|"
-                      r"southampton|(?<!new )york|bath|cheltenham|coventry|guildford|aberdeen|dundee|swansea|norwich|exeter|"
-                      r"plymouth|portsmouth|stoke|wolverhampton|bournemouth|harrogate|hatfield|enstone)\b", re.I)
+UK_TOWN_NAMES = ("london", "manchester", "birmingham", "leeds", "bristol", "edinburgh", "glasgow", "cardiff", "belfast",
+                 "liverpool", "newcastle", "nottingham", "derby", "leicester", "sheffield", "cambridge", "oxford",
+                 "brighton", "reading", "milton keynes", "southampton", "york", "bath", "cheltenham", "coventry",
+                 "guildford", "aberdeen", "dundee", "swansea", "norwich", "exeter", "plymouth", "portsmouth", "stoke",
+                 "wolverhampton", "bournemouth", "harrogate", "hatfield", "enstone")
+UK_TOWNS = re.compile(r"\b(" + "|".join("(?<!new )york" if t == "york" else re.escape(t) for t in UK_TOWN_NAMES)
+                      + r")\b", re.I)
 # Same names abroad: "London, Ontario", "Manchester, NH", "Newcastle, Australia". Any ", XX" two-letter capital code
 # (a US state or Canadian province) counts as abroad; that part is case-sensitive, so "London, On-site" stays UK.
 ABROAD = re.compile(r"(?i:\b(ontario|canada|usa|united states|australia|new south wales|nsw|new zealand|"

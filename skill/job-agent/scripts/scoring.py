@@ -22,6 +22,8 @@ EU_COUNTRY = re.compile(r"\b(paris|portugal|germany|spain|ireland|sweden|france|
 
 def city_regex(cities):
     parts = [("(?<!new )york" if c.lower() == "york" else re.escape(c.lower())) for c in cities]
+    if not parts:  # no towns given (for example "UK remote" only): match nothing
+        return re.compile(r"(?!)")
     return re.compile(r"\b(" + "|".join(parts) + r")\b", re.I)
 
 
