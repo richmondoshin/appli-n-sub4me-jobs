@@ -1,7 +1,7 @@
 """The Hidden Jobs Product & UX feed as a job source (03 section 3.4, G13).
 
-A free public RSS feed of design jobs read from company career pages across Europe, each linking to the employer's own
-job page. Rules: read the public feed only, at most once a day; keep UK jobs only; score them like any other job;
+A free public RSS feed of design jobs read from company career pages across Europe. Links go to the employer's own
+job page or, for many jobs, to a job board (JOB_BOARD_HOSTS), and users are told so (decided 24 Nov 2026). Rules: read the public feed only, at most once a day; keep UK jobs only; score them like any other job;
 show CREDIT wherever its jobs appear. Its repository has no licence, so nothing from it is copied into this skill.
 
 Where it's read from (M0.2, 23 Nov 2026): the repository file on raw.githubusercontent.com works on Free and Pro;
@@ -21,7 +21,12 @@ FEED_URLS = (
     "https://sarabrunettini.github.io/hiddenjobs/feeds/product-ux.xml",
 )
 SOURCE = "Hidden Jobs"
-CREDIT = "Some jobs come from the free Hidden Jobs feed: https://sarabrunettini.github.io/hiddenjobs/"
+CREDIT = ("Some jobs come from the free Hidden Jobs feed: https://sarabrunettini.github.io/hiddenjobs/ . Some of its "
+          "links open the job on a job board (uxjobs.io) instead of the employer's own website.")
+# Hidden Jobs links that open a job board, not the employer's page (seen 24 Nov 2026: 18 of 28 UK links). Users are told.
+JOB_BOARD_HOSTS = ("jobs.uxjobs.io",)
+BOARD_NOTE = ("This link opens the job on uxjobs.io, a job board, not the employer's own website. Check the employer's "
+              "careers page before you apply.")
 MAX_BYTES = 5 * 1024 * 1024
 
 # Towns that mark a UK job when the feed doesn't say "UK" (for example "London Office").

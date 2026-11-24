@@ -67,6 +67,48 @@ SKILL_LABELS = {
 }
 
 
+# ---- Seniority ---------------------------------------------------------------
+# Job levels in order, and the years of design experience each usually asks for (decided 24 Nov 2026: judge the
+# level against the CV's years unless the person changes the years in my-profile.md).
+LEVELS = ("Junior", "Mid", "Senior", "Lead/Staff", "Management")
+LEVEL_FROM_YEARS = ((2, 0), (5, 1), (8, 2))  # under 2 years: Junior; under 5: Mid; under 8: Senior; else Lead/Staff
+
+
+def title_level(title):
+    low = title.lower()
+    if re.search(r"manager|head", low):
+        return 4
+    if re.search(r"\b(staff|principal|lead)\b", low):
+        return 3
+    if re.search(r"\b(senior|sr)\b", low):
+        return 2
+    if re.search(r"\b(junior|jr|associate|graduate|entry)\b", low):
+        return 0
+    return 1
+
+
+def years_level(years):
+    for limit, level in LEVEL_FROM_YEARS:
+        if years < limit:
+            return level
+    return 3
+
+
+def seniority_points(title, years):
+    """15 = the level fits the person's years, 8 = one level above (stretch) or below, 3 = further away.
+    Without years (not in the CV or my-profile.md) the old rule applies: Mid/Senior fit, others are a stretch."""
+    lvl = title_level(title)
+    if years is None:
+        return {0: (5, "Junior (below experience)"), 3: (8, "Lead/Staff (stretch)"),
+                4: (5, "Management track (stretch)")}.get(lvl, (15, "Mid/Senior"))
+    gap = lvl - years_level(years)
+    yrs = f"{years:g} years"
+    if gap == 0 or (lvl == 4 and gap == 1 and years >= 8):
+        return 15, f"{LEVELS[lvl]} (fits your {yrs})"
+    pts = 8 if abs(gap) == 1 else 3
+    return pts, f"{LEVELS[lvl]} ({'stretch' if gap > 0 else 'below'} for your {yrs})"
+
+
 def score_job(job, sector, profile):
     """Return a score dict, or None if a hard filter rules the job out."""
     t = job["title"]
@@ -81,16 +123,8 @@ def score_job(job, sector, profile):
     if job.get("date") and job["date"] < cutoff:  # older than ~6 months: likely stale
         return None
 
-    low = t.lower()
     title_pts = 25 if PRIMARY.search(t) else 15
-    if re.search(r"manager|head", low):
-        sen_pts, sen = 5, "Management track (stretch)"
-    elif re.search(r"\b(staff|principal|lead)\b", low):
-        sen_pts, sen = 8, "Lead/Staff (stretch)"
-    elif re.search(r"\b(junior|associate|graduate|entry)\b", low):
-        sen_pts, sen = 5, "Junior (below experience)"
-    else:
-        sen_pts, sen = 15, "Mid/Senior"
+    sen_pts, sen = seniority_points(t, profile.get("years"))
 
     desc = (job.get("desc") or "").lower()
     hits = list(dict.fromkeys(SKILL_LABELS[k] for k in SKILL_LABELS if k in desc))
