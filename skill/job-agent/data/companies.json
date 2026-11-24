@@ -1,0 +1,2402 @@
+{
+ "version": 1,
+ "note": "Default company list for Appli.n.Sub4me (from worker/companies.py, 24 Nov 2026). Slugs are guesses.",
+ "companies": [
+  {
+   "name": "Monzo",
+   "sector": "Fintech",
+   "slugs": [
+    "monzo"
+   ]
+  },
+  {
+   "name": "Starling Bank",
+   "sector": "Fintech",
+   "slugs": [
+    "starlingbank",
+    "starling-bank"
+   ]
+  },
+  {
+   "name": "Wise",
+   "sector": "Fintech",
+   "slugs": [
+    "wise",
+    "transferwise"
+   ]
+  },
+  {
+   "name": "GoCardless",
+   "sector": "Fintech",
+   "slugs": [
+    "gocardless"
+   ]
+  },
+  {
+   "name": "Checkout.com",
+   "sector": "Fintech",
+   "slugs": [
+    "checkoutcom",
+    "checkout"
+   ]
+  },
+  {
+   "name": "TrueLayer",
+   "sector": "Fintech",
+   "slugs": [
+    "truelayer"
+   ]
+  },
+  {
+   "name": "Zopa",
+   "sector": "Fintech",
+   "slugs": [
+    "zopa",
+    "zopabank"
+   ]
+  },
+  {
+   "name": "OakNorth",
+   "sector": "Fintech",
+   "slugs": [
+    "oaknorth",
+    "oaknorthbank"
+   ]
+  },
+  {
+   "name": "Cleo",
+   "sector": "Fintech",
+   "slugs": [
+    "cleo",
+    "cleoai",
+    "meetcleo"
+   ]
+  },
+  {
+   "name": "Plum",
+   "sector": "Fintech",
+   "slugs": [
+    "plum",
+    "withplum"
+   ]
+  },
+  {
+   "name": "Chip",
+   "sector": "Fintech",
+   "slugs": [
+    "chip",
+    "getchip"
+   ]
+  },
+  {
+   "name": "Moneybox",
+   "sector": "Fintech",
+   "slugs": [
+    "moneybox",
+    "moneyboxapp"
+   ]
+  },
+  {
+   "name": "Freetrade",
+   "sector": "Fintech",
+   "slugs": [
+    "freetrade"
+   ]
+  },
+  {
+   "name": "Trading 212",
+   "sector": "Fintech",
+   "slugs": [
+    "trading212"
+   ]
+  },
+  {
+   "name": "Curve",
+   "sector": "Fintech",
+   "slugs": [
+    "curve",
+    "imaginecurve"
+   ]
+  },
+  {
+   "name": "Tide",
+   "sector": "Fintech",
+   "slugs": [
+    "tide"
+   ]
+  },
+  {
+   "name": "Thought Machine",
+   "sector": "Fintech",
+   "slugs": [
+    "thoughtmachine",
+    "thought-machine"
+   ]
+  },
+  {
+   "name": "10x Banking",
+   "sector": "Fintech",
+   "slugs": [
+    "10xbanking",
+    "10x"
+   ]
+  },
+  {
+   "name": "Paddle",
+   "sector": "Fintech",
+   "slugs": [
+    "paddle"
+   ]
+  },
+  {
+   "name": "Primer",
+   "sector": "Fintech",
+   "slugs": [
+    "primer",
+    "primerapi"
+   ]
+  },
+  {
+   "name": "Yapily",
+   "sector": "Fintech",
+   "slugs": [
+    "yapily"
+   ]
+  },
+  {
+   "name": "Modulr",
+   "sector": "Fintech",
+   "slugs": [
+    "modulr",
+    "modulrfinance"
+   ]
+  },
+  {
+   "name": "Griffin",
+   "sector": "Fintech",
+   "slugs": [
+    "griffin",
+    "griffinbank"
+   ]
+  },
+  {
+   "name": "Allica Bank",
+   "sector": "Fintech",
+   "slugs": [
+    "allica",
+    "allicabank"
+   ]
+  },
+  {
+   "name": "Atom bank",
+   "sector": "Fintech",
+   "slugs": [
+    "atombank",
+    "atom"
+   ]
+  },
+  {
+   "name": "Kroo",
+   "sector": "Fintech",
+   "slugs": [
+    "kroo"
+   ]
+  },
+  {
+   "name": "ClearScore",
+   "sector": "Fintech",
+   "slugs": [
+    "clearscore"
+   ]
+  },
+  {
+   "name": "Funding Circle",
+   "sector": "Fintech",
+   "slugs": [
+    "fundingcircle"
+   ]
+  },
+  {
+   "name": "iwoca",
+   "sector": "Fintech",
+   "slugs": [
+    "iwoca"
+   ]
+  },
+  {
+   "name": "Marshmallow",
+   "sector": "Insurtech",
+   "slugs": [
+    "marshmallow",
+    "getmarshmallow"
+   ]
+  },
+  {
+   "name": "Lendable",
+   "sector": "Fintech",
+   "slugs": [
+    "lendable"
+   ]
+  },
+  {
+   "name": "Ebury",
+   "sector": "Fintech",
+   "slugs": [
+    "ebury"
+   ]
+  },
+  {
+   "name": "Payhawk",
+   "sector": "Fintech",
+   "slugs": [
+    "payhawk"
+   ]
+  },
+  {
+   "name": "Pleo",
+   "sector": "Fintech",
+   "slugs": [
+    "pleo"
+   ]
+  },
+  {
+   "name": "Soldo",
+   "sector": "Fintech",
+   "slugs": [
+    "soldo"
+   ]
+  },
+  {
+   "name": "Airwallex",
+   "sector": "Fintech",
+   "slugs": [
+    "airwallex"
+   ]
+  },
+  {
+   "name": "Stripe",
+   "sector": "Fintech",
+   "slugs": [
+    "stripe"
+   ]
+  },
+  {
+   "name": "Adyen",
+   "sector": "Fintech",
+   "slugs": [
+    "adyen"
+   ]
+  },
+  {
+   "name": "Ramp",
+   "sector": "Fintech",
+   "slugs": [
+    "ramp"
+   ]
+  },
+  {
+   "name": "Mollie",
+   "sector": "Fintech",
+   "slugs": [
+    "mollie"
+   ]
+  },
+  {
+   "name": "SumUp",
+   "sector": "Fintech",
+   "slugs": [
+    "sumup"
+   ]
+  },
+  {
+   "name": "Dojo",
+   "sector": "Fintech",
+   "slugs": [
+    "dojo",
+    "paymentsense"
+   ]
+  },
+  {
+   "name": "Form3",
+   "sector": "Fintech",
+   "slugs": [
+    "form3"
+   ]
+  },
+  {
+   "name": "Bud",
+   "sector": "Fintech",
+   "slugs": [
+    "bud",
+    "thisisbud"
+   ]
+  },
+  {
+   "name": "Klarna",
+   "sector": "Fintech",
+   "slugs": [
+    "klarna"
+   ]
+  },
+  {
+   "name": "Zilch",
+   "sector": "Fintech",
+   "slugs": [
+    "zilch"
+   ]
+  },
+  {
+   "name": "Capital on Tap",
+   "sector": "Fintech",
+   "slugs": [
+    "capitalontap"
+   ]
+  },
+  {
+   "name": "Revolut",
+   "sector": "Fintech",
+   "slugs": [
+    "revolut"
+   ]
+  },
+  {
+   "name": "Nutmeg",
+   "sector": "Fintech",
+   "slugs": [
+    "nutmeg"
+   ]
+  },
+  {
+   "name": "Monese",
+   "sector": "Fintech",
+   "slugs": [
+    "monese"
+   ]
+  },
+  {
+   "name": "Lunar",
+   "sector": "Fintech",
+   "slugs": [
+    "lunar"
+   ]
+  },
+  {
+   "name": "N26",
+   "sector": "Fintech",
+   "slugs": [
+    "n26"
+   ]
+  },
+  {
+   "name": "Uncapped",
+   "sector": "Fintech",
+   "slugs": [
+    "uncapped",
+    "weareuncapped"
+   ]
+  },
+  {
+   "name": "Bitpanda",
+   "sector": "Fintech",
+   "slugs": [
+    "bitpanda"
+   ]
+  },
+  {
+   "name": "Kraken",
+   "sector": "Fintech",
+   "slugs": [
+    "kraken",
+    "krakendigitalassetexchange"
+   ]
+  },
+  {
+   "name": "Coinbase",
+   "sector": "Fintech",
+   "slugs": [
+    "coinbase"
+   ]
+  },
+  {
+   "name": "Ziglu",
+   "sector": "Fintech",
+   "slugs": [
+    "ziglu"
+   ]
+  },
+  {
+   "name": "Fintern",
+   "sector": "Fintech",
+   "slugs": [
+    "fintern"
+   ]
+  },
+  {
+   "name": "Snoop",
+   "sector": "Fintech",
+   "slugs": [
+    "snoop"
+   ]
+  },
+  {
+   "name": "Bink",
+   "sector": "Fintech",
+   "slugs": [
+    "bink"
+   ]
+  },
+  {
+   "name": "Lightyear",
+   "sector": "Fintech",
+   "slugs": [
+    "lightyear",
+    "golightyear"
+   ]
+  },
+  {
+   "name": "Moneyhub",
+   "sector": "Fintech",
+   "slugs": [
+    "moneyhub"
+   ]
+  },
+  {
+   "name": "Habito",
+   "sector": "Fintech",
+   "slugs": [
+    "habito"
+   ]
+  },
+  {
+   "name": "Mojo Mortgages",
+   "sector": "Fintech",
+   "slugs": [
+    "mojomortgages",
+    "mojo"
+   ]
+  },
+  {
+   "name": "Hargreaves Lansdown",
+   "sector": "Fintech",
+   "slugs": [
+    "hargreaveslansdown"
+   ]
+  },
+  {
+   "name": "Wealthify",
+   "sector": "Fintech",
+   "slugs": [
+    "wealthify"
+   ]
+  },
+  {
+   "name": "PensionBee",
+   "sector": "Fintech",
+   "slugs": [
+    "pensionbee"
+   ]
+  },
+  {
+   "name": "Penfold",
+   "sector": "Fintech",
+   "slugs": [
+    "penfold"
+   ]
+  },
+  {
+   "name": "Zego",
+   "sector": "Insurtech",
+   "slugs": [
+    "zego"
+   ]
+  },
+  {
+   "name": "Cuvva",
+   "sector": "Insurtech",
+   "slugs": [
+    "cuvva"
+   ]
+  },
+  {
+   "name": "Laka",
+   "sector": "Insurtech",
+   "slugs": [
+    "laka"
+   ]
+  },
+  {
+   "name": "YuLife",
+   "sector": "Insurtech",
+   "slugs": [
+    "yulife"
+   ]
+  },
+  {
+   "name": "Flock",
+   "sector": "Insurtech",
+   "slugs": [
+    "flock",
+    "flockcover"
+   ]
+  },
+  {
+   "name": "Paysend",
+   "sector": "Fintech",
+   "slugs": [
+    "paysend"
+   ]
+  },
+  {
+   "name": "Rapyd",
+   "sector": "Fintech",
+   "slugs": [
+    "rapyd"
+   ]
+  },
+  {
+   "name": "Banked",
+   "sector": "Fintech",
+   "slugs": [
+    "banked"
+   ]
+  },
+  {
+   "name": "Volt",
+   "sector": "Fintech",
+   "slugs": [
+    "volt",
+    "voltio"
+   ]
+  },
+  {
+   "name": "Ecologi",
+   "sector": "Climate",
+   "slugs": [
+    "ecologi"
+   ]
+  },
+  {
+   "name": "Octopus Energy",
+   "sector": "Energy tech",
+   "slugs": [
+    "octopusenergy",
+    "octopus-energy"
+   ]
+  },
+  {
+   "name": "Kaluza",
+   "sector": "Energy tech",
+   "slugs": [
+    "kaluza"
+   ]
+  },
+  {
+   "name": "OVO",
+   "sector": "Energy tech",
+   "slugs": [
+    "ovo",
+    "ovoenergy"
+   ]
+  },
+  {
+   "name": "Intercom",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "intercom"
+   ]
+  },
+  {
+   "name": "Miro",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "miro",
+    "realtimeboard"
+   ]
+  },
+  {
+   "name": "Canva",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "canva"
+   ]
+  },
+  {
+   "name": "Figma",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "figma"
+   ]
+  },
+  {
+   "name": "Notion",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "notion"
+   ]
+  },
+  {
+   "name": "Linear",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "linear"
+   ]
+  },
+  {
+   "name": "Vercel",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "vercel"
+   ]
+  },
+  {
+   "name": "incident.io",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "incident",
+    "incidentio"
+   ]
+  },
+  {
+   "name": "Factorial",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "factorial",
+    "factorialhr"
+   ]
+  },
+  {
+   "name": "Deel",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "deel"
+   ]
+  },
+  {
+   "name": "Remote",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "remote",
+    "remotecom"
+   ]
+  },
+  {
+   "name": "Personio",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "personio"
+   ]
+  },
+  {
+   "name": "HiBob",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hibob",
+    "bob"
+   ]
+  },
+  {
+   "name": "Lattice",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "lattice"
+   ]
+  },
+  {
+   "name": "Rippling",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "rippling"
+   ]
+  },
+  {
+   "name": "Gorgias",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "gorgias"
+   ]
+  },
+  {
+   "name": "Cognism",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "cognism"
+   ]
+  },
+  {
+   "name": "Beamery",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "beamery"
+   ]
+  },
+  {
+   "name": "Unmind",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "unmind"
+   ]
+  },
+  {
+   "name": "Peak AI",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "peak",
+    "peakai"
+   ]
+  },
+  {
+   "name": "Juro",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "juro"
+   ]
+  },
+  {
+   "name": "Ravelin",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "ravelin"
+   ]
+  },
+  {
+   "name": "Snyk",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "snyk"
+   ]
+  },
+  {
+   "name": "Darktrace",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "darktrace"
+   ]
+  },
+  {
+   "name": "Featurespace",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "featurespace"
+   ]
+  },
+  {
+   "name": "Quantexa",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "quantexa"
+   ]
+  },
+  {
+   "name": "Signal AI",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "signalai",
+    "signal-ai"
+   ]
+  },
+  {
+   "name": "Typeform",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "typeform"
+   ]
+  },
+  {
+   "name": "Contentful",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "contentful"
+   ]
+  },
+  {
+   "name": "Pitch",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "pitch"
+   ]
+  },
+  {
+   "name": "Framer",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "framer"
+   ]
+  },
+  {
+   "name": "Webflow",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "webflow"
+   ]
+  },
+  {
+   "name": "Shopify",
+   "sector": "E-commerce",
+   "slugs": [
+    "shopify"
+   ]
+  },
+  {
+   "name": "Squarespace",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "squarespace"
+   ]
+  },
+  {
+   "name": "HubSpot",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hubspot",
+    "hubspotjobs"
+   ]
+  },
+  {
+   "name": "Zendesk",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "zendesk"
+   ]
+  },
+  {
+   "name": "monday.com",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "mondaycom",
+    "monday"
+   ]
+  },
+  {
+   "name": "Asana",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "asana"
+   ]
+  },
+  {
+   "name": "Airtable",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "airtable"
+   ]
+  },
+  {
+   "name": "Atlassian",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "atlassian"
+   ]
+  },
+  {
+   "name": "Dropbox",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "dropbox"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "gitlab"
+   ]
+  },
+  {
+   "name": "HashiCorp",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hashicorp"
+   ]
+  },
+  {
+   "name": "Cloudflare",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "cloudflare"
+   ]
+  },
+  {
+   "name": "Datadog",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "datadog"
+   ]
+  },
+  {
+   "name": "Elastic",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "elastic"
+   ]
+  },
+  {
+   "name": "MongoDB",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "mongodb"
+   ]
+  },
+  {
+   "name": "Grafana Labs",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "grafanalabs"
+   ]
+  },
+  {
+   "name": "PostHog",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "posthog"
+   ]
+  },
+  {
+   "name": "Mixpanel",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "mixpanel"
+   ]
+  },
+  {
+   "name": "Amplitude",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "amplitude"
+   ]
+  },
+  {
+   "name": "Hotjar",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hotjar"
+   ]
+  },
+  {
+   "name": "Maze",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "maze"
+   ]
+  },
+  {
+   "name": "Dovetail",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "dovetail"
+   ]
+  },
+  {
+   "name": "Contentsquare",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "contentsquare"
+   ]
+  },
+  {
+   "name": "Optimizely",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "optimizely"
+   ]
+  },
+  {
+   "name": "Pento",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "pento"
+   ]
+  },
+  {
+   "name": "Planday",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "planday"
+   ]
+  },
+  {
+   "name": "Rotageek",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "rotageek"
+   ]
+  },
+  {
+   "name": "Beauhurst",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "beauhurst"
+   ]
+  },
+  {
+   "name": "Permutive",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "permutive"
+   ]
+  },
+  {
+   "name": "Tessian",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "tessian"
+   ]
+  },
+  {
+   "name": "CharlieHR",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "charliehr"
+   ]
+  },
+  {
+   "name": "Hopin",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hopin"
+   ]
+  },
+  {
+   "name": "Spendesk",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "spendesk"
+   ]
+  },
+  {
+   "name": "Qonto",
+   "sector": "Fintech",
+   "slugs": [
+    "qonto"
+   ]
+  },
+  {
+   "name": "Pigment",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "pigment"
+   ]
+  },
+  {
+   "name": "Attio",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "attio"
+   ]
+  },
+  {
+   "name": "Pennylane",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "pennylane"
+   ]
+  },
+  {
+   "name": "Sana",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "sana",
+    "sanalabs"
+   ]
+  },
+  {
+   "name": "Tines",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "tines"
+   ]
+  },
+  {
+   "name": "Vanta",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "vanta"
+   ]
+  },
+  {
+   "name": "Retool",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "retool"
+   ]
+  },
+  {
+   "name": "Zapier",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "zapier"
+   ]
+  },
+  {
+   "name": "Loom",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "loom"
+   ]
+  },
+  {
+   "name": "Calendly",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "calendly"
+   ]
+  },
+  {
+   "name": "ClickUp",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "clickup"
+   ]
+  },
+  {
+   "name": "Productboard",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "productboard"
+   ]
+  },
+  {
+   "name": "Pendo",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "pendo"
+   ]
+  },
+  {
+   "name": "Sprout Social",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "sproutsocial"
+   ]
+  },
+  {
+   "name": "Brandwatch",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "brandwatch"
+   ]
+  },
+  {
+   "name": "Hootsuite",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hootsuite"
+   ]
+  },
+  {
+   "name": "Bumble",
+   "sector": "Consumer app",
+   "slugs": [
+    "bumble"
+   ]
+  },
+  {
+   "name": "Synthesia",
+   "sector": "AI",
+   "slugs": [
+    "synthesia"
+   ]
+  },
+  {
+   "name": "ElevenLabs",
+   "sector": "AI",
+   "slugs": [
+    "elevenlabs"
+   ]
+  },
+  {
+   "name": "Faculty",
+   "sector": "AI",
+   "slugs": [
+    "faculty",
+    "facultyai"
+   ]
+  },
+  {
+   "name": "Stability AI",
+   "sector": "AI",
+   "slugs": [
+    "stabilityai"
+   ]
+  },
+  {
+   "name": "Wayve",
+   "sector": "AI",
+   "slugs": [
+    "wayve"
+   ]
+  },
+  {
+   "name": "Cohere",
+   "sector": "AI",
+   "slugs": [
+    "cohere"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "sector": "AI",
+   "slugs": [
+    "anthropic"
+   ]
+  },
+  {
+   "name": "Google DeepMind",
+   "sector": "AI",
+   "slugs": [
+    "deepmind"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "sector": "AI",
+   "slugs": [
+    "openai"
+   ]
+  },
+  {
+   "name": "PolyAI",
+   "sector": "AI",
+   "slugs": [
+    "polyai"
+   ]
+  },
+  {
+   "name": "Tractable",
+   "sector": "AI",
+   "slugs": [
+    "tractable"
+   ]
+  },
+  {
+   "name": "V7",
+   "sector": "AI",
+   "slugs": [
+    "v7",
+    "v7labs"
+   ]
+  },
+  {
+   "name": "Luminance",
+   "sector": "AI",
+   "slugs": [
+    "luminance"
+   ]
+  },
+  {
+   "name": "Robin AI",
+   "sector": "AI",
+   "slugs": [
+    "robinai"
+   ]
+  },
+  {
+   "name": "Harvey",
+   "sector": "AI",
+   "slugs": [
+    "harvey"
+   ]
+  },
+  {
+   "name": "Writer",
+   "sector": "AI",
+   "slugs": [
+    "writer"
+   ]
+  },
+  {
+   "name": "Mistral AI",
+   "sector": "AI",
+   "slugs": [
+    "mistral"
+   ]
+  },
+  {
+   "name": "Perplexity",
+   "sector": "AI",
+   "slugs": [
+    "perplexity",
+    "perplexityai"
+   ]
+  },
+  {
+   "name": "Granola",
+   "sector": "AI",
+   "slugs": [
+    "granola"
+   ]
+  },
+  {
+   "name": "Lovable",
+   "sector": "AI",
+   "slugs": [
+    "lovable"
+   ]
+  },
+  {
+   "name": "Cursor",
+   "sector": "AI",
+   "slugs": [
+    "anysphere",
+    "cursor"
+   ]
+  },
+  {
+   "name": "Speechmatics",
+   "sector": "AI",
+   "slugs": [
+    "speechmatics"
+   ]
+  },
+  {
+   "name": "Builder.ai",
+   "sector": "AI",
+   "slugs": [
+    "builderai"
+   ]
+  },
+  {
+   "name": "Peak",
+   "sector": "AI",
+   "slugs": [
+    "peakai"
+   ]
+  },
+  {
+   "name": "Depop",
+   "sector": "E-commerce",
+   "slugs": [
+    "depop"
+   ]
+  },
+  {
+   "name": "Vinted",
+   "sector": "E-commerce",
+   "slugs": [
+    "vinted"
+   ]
+  },
+  {
+   "name": "Gousto",
+   "sector": "E-commerce",
+   "slugs": [
+    "gousto"
+   ]
+  },
+  {
+   "name": "HelloFresh",
+   "sector": "E-commerce",
+   "slugs": [
+    "hellofresh"
+   ]
+  },
+  {
+   "name": "Deliveroo",
+   "sector": "E-commerce",
+   "slugs": [
+    "deliveroo"
+   ]
+  },
+  {
+   "name": "Just Eat Takeaway",
+   "sector": "E-commerce",
+   "slugs": [
+    "justeattakeaway",
+    "justeat"
+   ]
+  },
+  {
+   "name": "ASOS",
+   "sector": "E-commerce",
+   "slugs": [
+    "asos"
+   ]
+  },
+  {
+   "name": "Gymshark",
+   "sector": "E-commerce",
+   "slugs": [
+    "gymshark"
+   ]
+  },
+  {
+   "name": "THG",
+   "sector": "E-commerce",
+   "slugs": [
+    "thg",
+    "thehutgroup"
+   ]
+  },
+  {
+   "name": "Moonpig",
+   "sector": "E-commerce",
+   "slugs": [
+    "moonpig",
+    "moonpiggroup"
+   ]
+  },
+  {
+   "name": "notonthehighstreet",
+   "sector": "E-commerce",
+   "slugs": [
+    "notonthehighstreet",
+    "noths"
+   ]
+  },
+  {
+   "name": "Farfetch",
+   "sector": "E-commerce",
+   "slugs": [
+    "farfetch"
+   ]
+  },
+  {
+   "name": "Lyst",
+   "sector": "E-commerce",
+   "slugs": [
+    "lyst"
+   ]
+  },
+  {
+   "name": "Bloom & Wild",
+   "sector": "E-commerce",
+   "slugs": [
+    "bloomandwild",
+    "bloomwild"
+   ]
+  },
+  {
+   "name": "Huel",
+   "sector": "E-commerce",
+   "slugs": [
+    "huel"
+   ]
+  },
+  {
+   "name": "Papier",
+   "sector": "E-commerce",
+   "slugs": [
+    "papier"
+   ]
+  },
+  {
+   "name": "Cazoo",
+   "sector": "E-commerce",
+   "slugs": [
+    "cazoo"
+   ]
+  },
+  {
+   "name": "Cinch",
+   "sector": "E-commerce",
+   "slugs": [
+    "cinch"
+   ]
+  },
+  {
+   "name": "AO.com",
+   "sector": "E-commerce",
+   "slugs": [
+    "ao",
+    "aocom"
+   ]
+  },
+  {
+   "name": "Pets at Home",
+   "sector": "E-commerce",
+   "slugs": [
+    "petsathome"
+   ]
+  },
+  {
+   "name": "Holland & Barrett",
+   "sector": "E-commerce",
+   "slugs": [
+    "hollandandbarrett"
+   ]
+  },
+  {
+   "name": "Boots",
+   "sector": "E-commerce",
+   "slugs": [
+    "boots"
+   ]
+  },
+  {
+   "name": "Ocado Technology",
+   "sector": "E-commerce",
+   "slugs": [
+    "ocado",
+    "ocadotechnology"
+   ]
+  },
+  {
+   "name": "Trouva",
+   "sector": "E-commerce",
+   "slugs": [
+    "trouva"
+   ]
+  },
+  {
+   "name": "Etsy",
+   "sector": "E-commerce",
+   "slugs": [
+    "etsy"
+   ]
+  },
+  {
+   "name": "eBay",
+   "sector": "E-commerce",
+   "slugs": [
+    "ebay"
+   ]
+  },
+  {
+   "name": "Zalando",
+   "sector": "E-commerce",
+   "slugs": [
+    "zalando"
+   ]
+  },
+  {
+   "name": "Mytheresa",
+   "sector": "E-commerce",
+   "slugs": [
+    "mytheresa"
+   ]
+  },
+  {
+   "name": "Unidays",
+   "sector": "E-commerce",
+   "slugs": [
+    "unidays",
+    "myunidays"
+   ]
+  },
+  {
+   "name": "Student Beans",
+   "sector": "E-commerce",
+   "slugs": [
+    "studentbeans"
+   ]
+  },
+  {
+   "name": "Feel Unique",
+   "sector": "E-commerce",
+   "slugs": [
+    "feelunique"
+   ]
+  },
+  {
+   "name": "Lounge Underwear",
+   "sector": "E-commerce",
+   "slugs": [
+    "lounge",
+    "loungeunderwear"
+   ]
+  },
+  {
+   "name": "Represent",
+   "sector": "E-commerce",
+   "slugs": [
+    "represent"
+   ]
+  },
+  {
+   "name": "Grover",
+   "sector": "E-commerce",
+   "slugs": [
+    "grover"
+   ]
+  },
+  {
+   "name": "Too Good To Go",
+   "sector": "Consumer app",
+   "slugs": [
+    "toogoodtogo"
+   ]
+  },
+  {
+   "name": "Olio",
+   "sector": "Consumer app",
+   "slugs": [
+    "olio"
+   ]
+  },
+  {
+   "name": "Citymapper",
+   "sector": "Consumer app",
+   "slugs": [
+    "citymapper"
+   ]
+  },
+  {
+   "name": "Trainline",
+   "sector": "Consumer app",
+   "slugs": [
+    "trainline"
+   ]
+  },
+  {
+   "name": "Skyscanner",
+   "sector": "Consumer app",
+   "slugs": [
+    "skyscanner"
+   ]
+  },
+  {
+   "name": "Booking.com",
+   "sector": "Consumer app",
+   "slugs": [
+    "bookingcom"
+   ]
+  },
+  {
+   "name": "Zoopla",
+   "sector": "Proptech",
+   "slugs": [
+    "zoopla"
+   ]
+  },
+  {
+   "name": "Rightmove",
+   "sector": "Proptech",
+   "slugs": [
+    "rightmove"
+   ]
+  },
+  {
+   "name": "Goodlord",
+   "sector": "Proptech",
+   "slugs": [
+    "goodlord"
+   ]
+  },
+  {
+   "name": "Spotify",
+   "sector": "Consumer app",
+   "slugs": [
+    "spotify"
+   ]
+  },
+  {
+   "name": "Duolingo",
+   "sector": "Edtech",
+   "slugs": [
+    "duolingo"
+   ]
+  },
+  {
+   "name": "Strava",
+   "sector": "Consumer app",
+   "slugs": [
+    "strava"
+   ]
+  },
+  {
+   "name": "Uber",
+   "sector": "Consumer app",
+   "slugs": [
+    "uber"
+   ]
+  },
+  {
+   "name": "Bolt",
+   "sector": "Consumer app",
+   "slugs": [
+    "bolt"
+   ]
+  },
+  {
+   "name": "FREE NOW",
+   "sector": "Consumer app",
+   "slugs": [
+    "freenow"
+   ]
+  },
+  {
+   "name": "Treatwell",
+   "sector": "Consumer app",
+   "slugs": [
+    "treatwell"
+   ]
+  },
+  {
+   "name": "Fresha",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "fresha"
+   ]
+  },
+  {
+   "name": "Hostaway",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "hostaway"
+   ]
+  },
+  {
+   "name": "Multiverse",
+   "sector": "Edtech",
+   "slugs": [
+    "multiverse"
+   ]
+  },
+  {
+   "name": "Perlego",
+   "sector": "Edtech",
+   "slugs": [
+    "perlego"
+   ]
+  },
+  {
+   "name": "Sparx",
+   "sector": "Edtech",
+   "slugs": [
+    "sparx",
+    "sparxlearning"
+   ]
+  },
+  {
+   "name": "Seneca",
+   "sector": "Edtech",
+   "slugs": [
+    "seneca",
+    "senecalearning"
+   ]
+  },
+  {
+   "name": "CENTURY Tech",
+   "sector": "Edtech",
+   "slugs": [
+    "centurytech"
+   ]
+  },
+  {
+   "name": "Kahoot!",
+   "sector": "Edtech",
+   "slugs": [
+    "kahoot"
+   ]
+  },
+  {
+   "name": "Busuu",
+   "sector": "Edtech",
+   "slugs": [
+    "busuu"
+   ]
+  },
+  {
+   "name": "Memrise",
+   "sector": "Edtech",
+   "slugs": [
+    "memrise"
+   ]
+  },
+  {
+   "name": "MyTutor",
+   "sector": "Edtech",
+   "slugs": [
+    "mytutor"
+   ]
+  },
+  {
+   "name": "Tutorful",
+   "sector": "Edtech",
+   "slugs": [
+    "tutorful"
+   ]
+  },
+  {
+   "name": "Unibuddy",
+   "sector": "Edtech",
+   "slugs": [
+    "unibuddy"
+   ]
+  },
+  {
+   "name": "Studocu",
+   "sector": "Edtech",
+   "slugs": [
+    "studocu"
+   ]
+  },
+  {
+   "name": "FutureLearn",
+   "sector": "Edtech",
+   "slugs": [
+    "futurelearn"
+   ]
+  },
+  {
+   "name": "Coursera",
+   "sector": "Edtech",
+   "slugs": [
+    "coursera"
+   ]
+  },
+  {
+   "name": "Codecademy",
+   "sector": "Edtech",
+   "slugs": [
+    "codecademy"
+   ]
+  },
+  {
+   "name": "BBC Maestro",
+   "sector": "Edtech",
+   "slugs": [
+    "bbcmaestro"
+   ]
+  },
+  {
+   "name": "Accurx",
+   "sector": "Healthtech",
+   "slugs": [
+    "accurx"
+   ]
+  },
+  {
+   "name": "Cera",
+   "sector": "Healthtech",
+   "slugs": [
+    "cera",
+    "ceracare"
+   ]
+  },
+  {
+   "name": "Birdie",
+   "sector": "Healthtech",
+   "slugs": [
+    "birdie"
+   ]
+  },
+  {
+   "name": "Lindus Health",
+   "sector": "Healthtech",
+   "slugs": [
+    "lindushealth"
+   ]
+  },
+  {
+   "name": "Numan",
+   "sector": "Healthtech",
+   "slugs": [
+    "numan"
+   ]
+  },
+  {
+   "name": "Thriva",
+   "sector": "Healthtech",
+   "slugs": [
+    "thriva"
+   ]
+  },
+  {
+   "name": "Elvie",
+   "sector": "Healthtech",
+   "slugs": [
+    "elvie"
+   ]
+  },
+  {
+   "name": "Flo Health",
+   "sector": "Healthtech",
+   "slugs": [
+    "flohealth",
+    "flo"
+   ]
+  },
+  {
+   "name": "ZOE",
+   "sector": "Healthtech",
+   "slugs": [
+    "zoe",
+    "joinzoe"
+   ]
+  },
+  {
+   "name": "Patchwork Health",
+   "sector": "Healthtech",
+   "slugs": [
+    "patchworkhealth"
+   ]
+  },
+  {
+   "name": "Lantum",
+   "sector": "Healthtech",
+   "slugs": [
+    "lantum"
+   ]
+  },
+  {
+   "name": "Healthily",
+   "sector": "Healthtech",
+   "slugs": [
+    "healthily"
+   ]
+  },
+  {
+   "name": "Huma",
+   "sector": "Healthtech",
+   "slugs": [
+    "huma"
+   ]
+  },
+  {
+   "name": "Kheiron",
+   "sector": "Healthtech",
+   "slugs": [
+    "kheiron",
+    "kheironmedical"
+   ]
+  },
+  {
+   "name": "Sword Health",
+   "sector": "Healthtech",
+   "slugs": [
+    "swordhealth"
+   ]
+  },
+  {
+   "name": "Livi",
+   "sector": "Healthtech",
+   "slugs": [
+    "livi",
+    "kry"
+   ]
+  },
+  {
+   "name": "Juniper",
+   "sector": "Healthtech",
+   "slugs": [
+    "juniper"
+   ]
+  },
+  {
+   "name": "Oviva",
+   "sector": "Healthtech",
+   "slugs": [
+    "oviva"
+   ]
+  },
+  {
+   "name": "Spectrum.Life",
+   "sector": "Healthtech",
+   "slugs": [
+    "spectrumlife"
+   ]
+  },
+  {
+   "name": "Experian",
+   "sector": "Data / fintech (Nottingham)",
+   "slugs": [
+    "experian"
+   ]
+  },
+  {
+   "name": "Capital One UK",
+   "sector": "Fintech (Nottingham)",
+   "slugs": [
+    "capitalone"
+   ]
+  },
+  {
+   "name": "Rolls-Royce",
+   "sector": "Engineering (Derby)",
+   "slugs": [
+    "rollsroyce"
+   ]
+  },
+  {
+   "name": "IRIS Software",
+   "sector": "B2B SaaS (Nottingham)",
+   "slugs": [
+    "iris",
+    "irissoftware"
+   ]
+  },
+  {
+   "name": "Rockar",
+   "sector": "E-commerce (Nottingham)",
+   "slugs": [
+    "rockar"
+   ]
+  },
+  {
+   "name": "Hiyield",
+   "sector": "Agency (Nottingham)",
+   "slugs": [
+    "hiyield"
+   ]
+  },
+  {
+   "name": "Mattioli Woods",
+   "sector": "Fintech (Leicester)",
+   "slugs": [
+    "mattioliwoods"
+   ]
+  },
+  {
+   "name": "Shoosmiths",
+   "sector": "Legal",
+   "slugs": [
+    "shoosmiths"
+   ]
+  },
+  {
+   "name": "Jaguar Land Rover",
+   "sector": "Automotive (Coventry)",
+   "slugs": [
+    "jaguarlandrover",
+    "jlr"
+   ]
+  },
+  {
+   "name": "Severn Trent",
+   "sector": "Utilities (Coventry)",
+   "slugs": [
+    "severntrent"
+   ]
+  },
+  {
+   "name": "E.ON Next",
+   "sector": "Energy (Nottingham)",
+   "slugs": [
+    "eon",
+    "eonnext"
+   ]
+  },
+  {
+   "name": "Paragon Bank",
+   "sector": "Fintech (Solihull)",
+   "slugs": [
+    "paragon"
+   ]
+  },
+  {
+   "name": "Bet365",
+   "sector": "Gaming (Stoke)",
+   "slugs": [
+    "bet365"
+   ]
+  },
+  {
+   "name": "Gymshark HQ",
+   "sector": "E-commerce (Solihull)",
+   "slugs": [
+    "gymshark"
+   ]
+  },
+  {
+   "name": "Unidays HQ",
+   "sector": "E-commerce (Nottingham)",
+   "slugs": [
+    "unidays"
+   ]
+  },
+  {
+   "name": "Cosy Direct",
+   "sector": "E-commerce",
+   "slugs": [
+    "cosydirect"
+   ]
+  },
+  {
+   "name": "Thorntons",
+   "sector": "Retail (Derbyshire)",
+   "slugs": [
+    "thorntons"
+   ]
+  },
+  {
+   "name": "Clarity",
+   "sector": "Agency",
+   "slugs": [
+    "clarity"
+   ]
+  },
+  {
+   "name": "Talis",
+   "sector": "Edtech (Birmingham)",
+   "slugs": [
+    "talis"
+   ]
+  },
+  {
+   "name": "Learning Pool",
+   "sector": "Edtech",
+   "slugs": [
+    "learningpool"
+   ]
+  },
+  {
+   "name": "Firefish",
+   "sector": "B2B SaaS",
+   "slugs": [
+    "firefish"
+   ]
+  },
+  {
+   "name": "Cazana",
+   "sector": "Automotive data",
+   "slugs": [
+    "cazana"
+   ]
+  },
+  {
+   "name": "Dexters",
+   "sector": "Proptech",
+   "slugs": [
+    "dexters"
+   ]
+  },
+  {
+   "name": "Ticketmaster",
+   "sector": "Consumer app",
+   "slugs": [
+    "ticketmaster",
+    "livenation"
+   ]
+  },
+  {
+   "name": "Matillion",
+   "sector": "B2B SaaS (Manchester)",
+   "slugs": [
+    "matillion"
+   ]
+  },
+  {
+   "name": "Auto Trader UK",
+   "sector": "Marketplace (Manchester)",
+   "slugs": [
+    "autotrader",
+    "autotraderuk"
+   ]
+  },
+  {
+   "name": "LADbible Group",
+   "sector": "Media (Manchester)",
+   "slugs": [
+    "ladbible",
+    "ladbiblegroup"
+   ]
+  },
+  {
+   "name": "The Very Group",
+   "sector": "E-commerce (Liverpool)",
+   "slugs": [
+    "theverygroup",
+    "very"
+   ]
+  },
+  {
+   "name": "Zuto",
+   "sector": "Fintech (Macclesfield)",
+   "slugs": [
+    "zuto"
+   ]
+  },
+  {
+   "name": "Moneysupermarket",
+   "sector": "Fintech (Chester)",
+   "slugs": [
+    "moneysupermarket",
+    "mony"
+   ]
+  },
+  {
+   "name": "Sky Betting & Gaming",
+   "sector": "Gaming (Leeds)",
+   "slugs": [
+    "skybettingandgaming",
+    "skybetting"
+   ]
+  },
+  {
+   "name": "BJSS",
+   "sector": "Consultancy (Leeds)",
+   "slugs": [
+    "bjss"
+   ]
+  },
+  {
+   "name": "Immersive Labs",
+   "sector": "B2B SaaS (Bristol)",
+   "slugs": [
+    "immersivelabs"
+   ]
+  },
+  {
+   "name": "Ultraleap",
+   "sector": "Hardware/software (Bristol)",
+   "slugs": [
+    "ultraleap"
+   ]
+  },
+  {
+   "name": "Graphcore",
+   "sector": "AI (Bristol)",
+   "slugs": [
+    "graphcore"
+   ]
+  },
+  {
+   "name": "YouGov",
+   "sector": "Data (London/Bristol)",
+   "slugs": [
+    "yougov"
+   ]
+  },
+  {
+   "name": "FanDuel",
+   "sector": "Gaming (Edinburgh)",
+   "slugs": [
+    "fanduel"
+   ]
+  },
+  {
+   "name": "Administrate",
+   "sector": "B2B SaaS (Edinburgh)",
+   "slugs": [
+    "administrate"
+   ]
+  },
+  {
+   "name": "Skyscanner (Edinburgh)",
+   "sector": "Consumer app (Edinburgh)",
+   "slugs": [
+    "skyscanner",
+    "skyscannerltd"
+   ]
+  },
+  {
+   "name": "Codeplay",
+   "sector": "Software (Edinburgh)",
+   "slugs": [
+    "codeplay"
+   ]
+  },
+  {
+   "name": "Arm",
+   "sector": "Hardware/software (Cambridge)",
+   "slugs": [
+    "arm"
+   ]
+  },
+  {
+   "name": "Raspberry Pi",
+   "sector": "Hardware/software (Cambridge)",
+   "slugs": [
+    "raspberrypi"
+   ]
+  },
+  {
+   "name": "Admiral Group",
+   "sector": "Insurtech (Cardiff)",
+   "slugs": [
+    "admiral",
+    "admiralgroup"
+   ]
+  },
+  {
+   "name": "Kooth",
+   "sector": "Healthtech (Manchester)",
+   "slugs": [
+    "kooth"
+   ]
+  },
+  {
+   "name": "Booking.com Manchester",
+   "sector": "Consumer app (Manchester)",
+   "slugs": [
+    "booking"
+   ]
+  },
+  {
+   "name": "Hargreaves Lansdown Bristol",
+   "sector": "Fintech (Bristol)",
+   "slugs": [
+    "hl",
+    "hargreaves-lansdown"
+   ]
+  },
+  {
+   "name": "On The Beach",
+   "sector": "E-commerce (Manchester)",
+   "slugs": [
+    "onthebeach"
+   ]
+  },
+  {
+   "name": "Missguided",
+   "sector": "E-commerce (Manchester)",
+   "slugs": [
+    "missguided"
+   ]
+  },
+  {
+   "name": "Fanatics",
+   "sector": "E-commerce (Manchester)",
+   "slugs": [
+    "fanatics"
+   ]
+  },
+  {
+   "name": "Oddbox",
+   "sector": "E-commerce (London)",
+   "slugs": [
+    "oddbox"
+   ]
+  },
+  {
+   "name": "Rightmove (Milton Keynes)",
+   "sector": "Proptech",
+   "slugs": [
+    "rightmoveplc"
+   ]
+  },
+  {
+   "name": "Cazoo Leeds",
+   "sector": "E-commerce",
+   "slugs": [
+    "cazooltd"
+   ]
+  },
+  {
+   "name": "Sage",
+   "sector": "B2B SaaS (Newcastle)",
+   "slugs": [
+    "sage",
+    "sagegroup"
+   ]
+  },
+  {
+   "name": "Ocado (Hatfield)",
+   "sector": "E-commerce",
+   "slugs": [
+    "ocadogroup"
+   ]
+  }
+ ],
+ "wrong_match": {
+  "Wise": "Slug belongs to a different company (Wise Worksite)",
+  "Cleo": "Slug is Cleo (US), not Cleo AI",
+  "Primer": "Slug belongs to a US company",
+  "Ramp": "Slug belongs to RAMP (Dublin), not Ramp",
+  "Remote": "Slug belongs to General Assembly",
+  "Peak AI": "Slug belongs to Peak Physical Therapy",
+  "Seneca": "Slug belongs to a US company",
+  "IRIS Software": "Slug is Iris North America",
+  "E.ON Next": "Slug belongs to a US company",
+  "Lovable": "Board locations don't fit Lovable; unverified",
+  "Lunar": "Unclear which Lunar; unverified",
+  "Cursor": "Unverified match",
+  "Gymshark HQ": "Duplicate of Gymshark",
+  "Unidays HQ": "Duplicate of Unidays",
+  "Uber": "Feed holds 1 job only; main careers site elsewhere"
+ },
+ "duplicates": [
+  "Gymshark HQ",
+  "Unidays HQ"
+ ]
+}
