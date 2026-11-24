@@ -29,8 +29,10 @@ UK_TOWNS = re.compile(r"\b(london|manchester|birmingham|leeds|bristol|edinburgh|
                       r"newcastle|nottingham|derby|leicester|sheffield|cambridge|oxford|brighton|reading|milton keynes|"
                       r"southampton|(?<!new )york|bath|cheltenham|coventry|guildford|aberdeen|dundee|swansea|norwich|exeter|"
                       r"plymouth|portsmouth|stoke|wolverhampton|bournemouth|harrogate|hatfield|enstone)\b", re.I)
-# Same names abroad: "London, Ontario", "Cambridge, MA", "Birmingham, AL"
-ABROAD = re.compile(r"\b(ontario|canada|usa|united states)\b|,\s?(MA|AL|ON|NY|CA|TX)\b", re.I)
+# Same names abroad: "London, Ontario", "Manchester, NH", "Newcastle, Australia". Any ", XX" two-letter capital code
+# (a US state or Canadian province) counts as abroad; that part is case-sensitive, so "London, On-site" stays UK.
+ABROAD = re.compile(r"(?i:\b(ontario|canada|usa|united states|australia|new south wales|nsw|new zealand|"
+                    r"south africa)\b)|,\s?(?!UK\b|GB\b)[A-Z]{2}\b")
 
 
 class FeedUnavailable(Exception):
