@@ -77,8 +77,10 @@ def fetch(cache_dir=None, today=None, opener=_default_opener):
                 old.unlink()
             cache.write_text(text, encoding="utf-8")
         return text
-    raise FeedUnavailable("The Hidden Jobs feed couldn't be read today, so this run uses your other job sources. "
-                          "(" + "; ".join(problems) + ")")
+    # Plain words only (07 section 7.4: no raw error text); the technical details stay on the exception.
+    error = FeedUnavailable("The Hidden Jobs feed couldn't be read today, so this run uses your other job sources.")
+    error.problems = problems
+    raise error
 
 
 def _iso(pub_date):
