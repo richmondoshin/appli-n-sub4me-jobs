@@ -5,6 +5,7 @@ name: Daily job index
 on:
   schedule:
     - cron: "17 5 * * *"   # every day at 05:17 UTC
+    - cron: "43 13 * * *"  # and 13:43 UTC: GitHub can delay or skip a scheduled run (25 Nov: 05:17 ran at 15:44)
   workflow_dispatch:        # "Run workflow" button for a manual run
 
 permissions:
