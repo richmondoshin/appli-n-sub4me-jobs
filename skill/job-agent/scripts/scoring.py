@@ -31,7 +31,11 @@ def location_points(loc, home, wider):
     """15 = a home city, 13 = a wider UK city (relocation), 15 = UK remote, 12 = UK unspecified,
     8 = Europe/EMEA remote (check UK eligibility), 0 = not eligible."""
     abroad = bool(NOT_UK.search(loc)) and not UK.search(loc)
-    if home.search(loc) and not (abroad and not re.search(r"london|nottingham|derby|leicester", loc, re.I)):
+    # "Manchester / Austin, TX": each part is checked on its own, so a home city next to a city abroad still counts,
+    # but a same-named town abroad ("Cambridge, MA") doesn't.
+    parts = [p for p in re.split(r"\s*(?:/|;|\||\bor\b|\band\b|·)\s*", loc) if p.strip()]
+    home_in_uk = any(home.search(p) and not NOT_UK.search(p) for p in parts)
+    if home.search(loc) and (not abroad or home_in_uk):
         return 15, "Target city"
     if wider.search(loc) and not abroad:
         return 13, "UK city (relocation)"

@@ -126,10 +126,14 @@ def find_board(name, slugs, wrong_match=()):
     Companies in wrong_match are skipped: their slug belongs to a different company."""
     if name in wrong_match:
         return dict(company=name, slug=None, ats=None, jobs=[], wrong=True)
+    failed = False
     for slug in slugs:
         for fetch in FETCHERS:
-            board = fetch(slug)
+            try:
+                board = fetch(slug)
+            except Exception:  # the job site sent something unexpected (not JSON, a changed format): try the next one
+                failed, board = True, None
             if board is not None:
                 board.update(company=name, slug=slug, wrong=False)
                 return board
-    return dict(company=name, slug=None, ats=None, jobs=[], wrong=False)
+    return dict(company=name, slug=None, ats=None, jobs=[], wrong=False, failed=failed)
